@@ -1,0 +1,795 @@
+body {
+
+  margin:0;
+
+  padding:0;
+
+  font-size: 11px;
+
+  color: #000000;
+
+  font-family: verdana;
+
+  background-image: url('../images/background.gif');
+
+  }
+
+
+
+
+
+a {
+
+  color: #222222;
+
+  text-decoration: underline;
+
+  font-weight: bold;
+
+  }
+
+
+
+
+
+a:hover  {
+
+  color: #c90000;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  }
+
+
+
+
+
+.nadpis {
+
+  width: 570px;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  text-align: right;
+
+  }
+
+
+
+
+
+.clanek-nadpis {
+
+  width: 540px;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  text-align: left;
+
+  }
+
+
+
+
+
+.content {
+
+  left: 150px;
+
+  top: 89px;
+
+  position: absolute;
+
+  text-align: justify;
+
+  padding: 10px 0px 10px 0px;
+
+  font-size: 11px;
+
+  }
+
+
+
+
+
+.menubottom  {
+
+  margin: 2px 0px 0px 1px;
+
+  padding: 5px 2px 5px 6px;
+
+  font-size: 11px;
+
+  color: #FFFFFF;
+
+  background-color: #000000;
+
+  border: 1px solid #222222;
+
+  border-left-width: 7px;
+
+  }
+
+  
+
+  
+
+.menubutton  {
+
+  margin: 2px 0px 0px 1px;
+
+  padding: 5px 0px 5px 10px;
+
+  font-size: 11px;
+
+  color: #FFFFFF;
+
+  background-color: #000000;
+
+  border: 1px solid #222222;
+
+  border-left-width: 7px;
+
+  cursor: pointer;
+
+  }
+
+  
+
+  
+
+.menubuttonred   {
+
+  font-weight: bold;
+
+  font-size: 11px;
+
+  margin: 2px 0px 0px 1px;
+
+  padding: 5px 0px 5px 10px;
+
+  color: #FFFFFF;
+
+  background-color: #c90000;
+
+  border: 1px solid #dd0000;
+
+  border-left-width: 7px;
+
+  cursor: pointer;
+
+  }
+  
+
+.menubutton_blue   {
+
+  font-weight: bold;
+
+  font-size: 11px;
+
+  margin: 2px 0px 0px 1px;
+
+  padding: 5px 0px 5px 10px;
+
+  color: #FFFFFF;
+
+  background-color: #0033c9;
+
+  border: 1px solid #0033ee;
+
+  border-left-width: 7px;
+
+  cursor: pointer;
+
+  }
+
+
+
+
+
+div  {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  }
+
+
+
+p  {
+
+  text-align: justify;
+
+ /* width: 530px;*/
+
+  margin : 10px 0px 10px 5px;
+
+  padding: 0px;
+
+  }
+
+
+
+  
+
+td {
+
+  font-size: 11px;
+
+  font-family: verdana;
+
+  }  
+
+
+
+
+
+li  {
+
+  vertical-align: middle;
+
+  padding: 0 .2em;
+
+  /*width: 530px;*/
+
+  list-style: disc;
+
+  }
+
+
+
+
+
+input {
+
+  font-size: 11px;
+
+  font-weight: normal;
+
+  border: 1px solid #AAAAAA;
+
+  }
+
+
+
+
+
+form {
+
+  padding-top: 0px;
+
+  margin-top: 0px;
+
+  padding-bottom: 0px;
+
+  margin-bottom: 0px;
+
+}
+
+
+
+
+
+button {
+
+  text-align:center;
+
+  font-size: 100%;
+
+  font-weight: bold;
+
+  color: #FFFFFF;
+
+  background-color: #5A89C0;
+
+  cursor: hand;
+
+  border-top: 1px solid #D9EBF1;
+
+  border-left: 1px solid #D9EBF1;
+
+  background-image: url(../images/butt.jpg);
+
+  }
+
+
+
+
+
+select {
+
+  color: #000000;
+
+  font-size: 11px;
+
+  font-weight: normal;
+
+  border: 1px solid #AAAAAA;
+
+  }
+
+
+
+
+
+textarea {
+
+  font-family: Tahoma CE, Tahoma, Helvetica CE, Arial CE, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  }
+
+
+
+
+
+code  {
+
+  font-family: Tahoma CE, Tahoma, Helvetica CE, Arial CE, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  }
+
+
+
+
+
+.bg0 {
+
+  margin-left: 1px;
+
+  border: 1px solid;
+
+  width: 99%;
+
+  background-color: #d0e8f0;
+
+  padding: 10px;
+
+}
+
+
+
+
+
+.bg1 {
+
+  margin-left: 1px;
+
+  border: 1px solid;
+
+  width: 99%;
+
+  background-color: #F8F8F8;
+
+  padding: 10px;
+
+  }
+
+
+
+
+
+.clear {
+
+	clear: both;
+
+	font-size: 1px;
+
+	height: 0px;
+
+} 
+
+
+
+
+
+div.clear {
+
+  width: 0px;
+
+  }
+
+
+
+
+
+img {
+
+  border: 1px solid;
+
+  border-color: #222222;
+
+}
+
+
+
+
+
+img.no-border {
+
+  border: none;
+
+}
+
+
+
+
+
+h1 {
+
+  padding-top: 6px;
+
+  padding-bottom: 5px;
+
+  margin-left: 28px;
+
+  width: 540px;
+
+  text-transform: uppercase;
+
+  font-size: 15px;
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+
+
+
+h2 {
+
+  text-align: justify;
+
+  margin : 10px 0px 10px 5px;
+
+  font-size: 11px;
+
+  padding : 0px;
+
+  font-weight: bold;
+
+  }
+
+
+
+
+
+table.width {
+
+  width: 535px;
+
+  }
+
+
+
+
+
+.tac {
+
+  text-align: center;
+
+  }
+
+
+
+
+
+.taj {
+
+  text-align: justify;
+
+  }
+
+
+
+
+
+.tal {
+
+  text-align: left;
+
+  }
+
+
+
+
+
+.tar {
+
+  text-align: right;
+
+  }
+
+
+
+
+
+.blue {
+
+  color: #222222;
+
+  }
+
+
+
+
+
+.menubuttonblue {
+
+  margin-top: 91px;
+
+  color: #FFFFFF;
+
+  background-color: #000000;
+
+  border: 1px solid #222222;
+
+  border-right-width: 7px;
+
+  width: 237px;
+
+  left: 736px;
+
+  top: 0px;
+
+  position: absolute;
+
+  }
+
+
+
+
+
+.menubuttonblue-in {
+
+  margin: 2px 5px 2px 11px;
+
+  }
+
+
+
+
+
+hr.panel {
+
+  height: 1px;
+
+  color: white;
+
+  background-color: white;
+
+  border: 0px solid white;
+
+  margin-right: 10px;
+
+  }
+
+
+
+
+
+.sirka {
+
+  width: 570px;
+
+  }
+
+
+
+
+
+.floatl {
+
+  text-align: right;
+
+  }
+
+
+
+/****************************/
+
+/* samotny blok clanku*/
+
+.clanek_bg1 {
+
+  margin-left: 1px;
+
+  border: 1px solid;
+
+  width: 99%;
+
+  background-color: #F8F8F8;
+
+  padding: 10px;
+
+  }
+
+
+
+
+
+/* nadpis clanku */
+
+.clanek_bg1 span{
+
+  font-size: 14px;
+
+  font-weight:bold;
+
+  text-transform:uppercase;
+
+  }
+
+  
+
+  
+
+/* obrazek v clanku */
+
+.clanek_bg1 img{
+
+  float: left;
+
+  margin:0 10px 0 0;
+
+  }
+
+
+
+
+
+.clanek_bg0 {
+
+  margin-left: 1px;
+
+  border: 1px solid;
+
+  width: 99%;
+
+  background-color: #d0e8f0;
+
+  padding: 10px;
+
+  }
+
+
+
+
+
+/* nadpis clanku */
+
+.clanek_bg0 span{
+
+  font-size: 14px;
+
+  font-weight:bold;
+
+  text-transform:uppercase;
+
+  }
+
+  
+
+  
+
+/* obrazek v clanku */
+
+.clanek_bg0 img{
+
+  float: left;
+
+  margin:0 10px 0 0;
+
+  }
+
+
+
+
+
+#pagecaption {
+
+  left:1px;
+
+  top:0px;
+
+  position:absolute;
+
+ }
+
+
+
+#buttommenu {
+
+  left: 1px;
+
+  top: 89px;
+
+  position: absolute;
+
+  width: 147px;
+
+ }
+
+
+
+.center {
+
+  text-align: center;
+
+ }
+
+
+
+.stred {
+
+  width: 1024px;
+
+  margin: auto;
+
+  position: relative;
+
+  }
+
+
+
+#fb_iframe {
+
+  border:none;
+
+  overflow:hidden;
+
+  width:220px;
+
+  height:400px;
+
+  background-color: white;
+
+  }
+
+  
+
+.okraj {
+
+  margin: 5px 5px 5px 15px;
+
+}
+
+
+
+.white {
+
+  color: white;
+
+}
+
+
+
+.bold {
+
+  font-weight: bold;
+
+}
+
+
+
+.zoznam {
+
+  padding: 5px;
+
+  margin-left: 15px;
+
+}
+

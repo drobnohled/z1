@@ -1,0 +1,2 @@
+<p>For English, German, Russian, French or Italian info please mail <a href="mailto:zkusebny@zkusebny.com">zkusebny@zkusebny.com</a></p>
+<p>informácie v slovenèine: <a href="http://www.skusobne.com/">skusobne.com</a></p>
